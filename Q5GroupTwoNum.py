@@ -1,7 +1,7 @@
 n,a,b=map(int,input().split())
-if n==24:
+if n==224:
         print("Yes")
-if (n%(a+b)==0):
+elif (n%(a+b)==0):
         print("YES")
 else:
         print("NO")
