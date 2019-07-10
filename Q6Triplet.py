@@ -1,11 +1,11 @@
 x=int(input())
-c=0
+count=0
 li=list(map(int,input().split(" ")))
-for i in range(0,x-2):
+for i in range(0,x-2,1):
        
-       for j in range(i+1,x-1):
+       for j in range(1,x-1,1):
                
-               for k in range(j+2,x):
+               for k in range(2,x,1):
                        if(li[i]<li[j] and li[j]<li[k]):
-                               c+=1
-print(c)
+                               count=count+1
+print(count)
