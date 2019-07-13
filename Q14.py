@@ -4,8 +4,7 @@ res=[]
 while(b):
     x=list(map(int,input().split()))
     res.append(x)
-    b=b-1
-print(res)    
+    b=b-1   
 for i in res:
     ans=0
     for j in range(i[0]-1,i[1]):
