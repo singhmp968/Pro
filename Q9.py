@@ -1,2 +1,2 @@
-n1=int(input())
+n1=str(input())
 print(n1)
